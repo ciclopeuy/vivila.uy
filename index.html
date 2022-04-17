@@ -35,21 +35,25 @@
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-ligth bg-black">
       <div class="container-fluid">
-        <img id="logo" src="./assets/img/logo.jpg" alt="" />
+        <a href="">
+          <img id="logo" src="./assets/img/logo.jpg" alt="" />
+        </a>
         <form class="d-flex">
           <input
             id="usuario"
             class="form-control me-2"
             type="text"
-            placeholder="Ingresa Usuario"
+            placeholder="Igresa tu nombre"
             aria-label="Usuario"
+            required
           />
           <input
             id="contra"
             class="form-control me-2"
-            type="password"
-            placeholder="Ingresa Contraseña"
+            type="email"
+            placeholder="Ingresa tu mail"
             aria-label="Contraseña"
+            required
           />
           <button id="ingresar" class="btn btn-warning me-2" type="submit">
             <svg
@@ -162,101 +166,36 @@
     </div>
 
     <!-- Categorias de paquetes -->
-    <div class="container-fluid p-2">
-      <h2 id="experiencia" class="text-center p-1 bg-warning display-5">
-        ¿QUÉ EXPERIENCIA QUERÉS VIVIR HOY?
-      </h2>
-    </div>
-    <div class="container">
-      <select
-        id="categorias"
-        class="form-select"
-        aria-label="Default select example"
-      >
-        <option value="todas" selected>Todos</option>
-        <option value="Gastronomia">Gastronomía</option>
-        <option value="Espectaculos">Espectaculos</option>
-        <option value="Viajes">Viajes</option>
-      </select>
-    </div>
+    <div id="prueba">
+      <div class="container-fluid p-2">
+        <h2 id="experiencia" class="text-center p-1 bg-warning display-5">
+          ¿QUÉ TE GUSTARÍA HACER HOY?
+        </h2>
+      </div>
+      <div class="container">
+        <select
+          id="categorias"
+          class="form-select"
+          aria-label="Default select example"
+        >
+          <option value="todas" selected>Todos</option>
+          <option value="Gastronomia">Gastronomía</option>
+          <option value="Espectaculos">Espectaculos</option>
+          <option value="Viajes">Viajes</option>
+        </select>
+      </div>
 
-    <!-- Grid con elementos -->
-    <div class="justify-content-center card-group m-3" id="gridElementos"></div>
-
+      <!-- Grid con elementos -->
+      <div
+        class="justify-content-center card-group m-3"
+        id="gridElementos"
+      ></div>
+    </div>
     <!-- Detalle del elemento seleccionado-->
 
     <div id="gridEleccion">
-      <div><h4></h4></div>
+      <div><h4>hola</h4></div>
     </div>
-
-    <!-- Solo falta un paso-->
-
-    <!-- <div class="container-fluid p-2" id="elementoselec">
-      <h2 class="text-center p-1 bg-warning display-5">¡GRAN ELECCION!</h2>
-
-
-      <div id="gridEleccion">
-        <div class="card m-3">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="./assets/img/v2.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h2 class="card-title text-danger display-6">Solo falta un paso</h2>
-                <p class="card-text lead">Completa tus datos para finalizar la compra</p>
-                <div class="form-floating mt-2">
-                  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Nombre</label>
-                </div>
-                <div class="form-floating mt-2">
-                  <input type="email" class="form-control" id="floatingPassword" placeholder="nombre@mail.com">
-                  <label for="floatingPassword">E-mail</label>
-                </div>
-                <div class="form-floating mt-2">
-                  <select class="form-select" aria-label="Default select example >
-                          <option value=" 160">Dos cuotas de U$S 80</option>
-                    <option value="80">Dos cuotas de U$S 80</option>
-                    <option value="53">Tres cuotas de U$S 53 </option>
-                  </select>
-                  <label for="floatingPassword">Cuotas</label>
-                </div>
-                <a href="#" class="btn btn-danger mt-2">Finalizar Compra!</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-    <!-- <h2 class="card-title text-danger display-6 mt-4">Solo falta un Paso</h2>
-                      <p class="card-text lead">Completa tus datos para finalizar la compra</p>
-
-                      <div class="form-floating mt-2">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Nombre</label>
-                      </div>
-                      <div class="form-floating mt-2">
-                        <input type="email" class="form-control" id="floatingPassword" placeholder="nombre@mail.com">
-                        <label for="floatingPassword">E-mail</label>
-                      </div>
-                      <div class="form-floating mt-2">
-                        <select class="form-select" aria-label="Default select example >
-                          <option value="160">Dos cuotas de U$S 80</option>
-                          <option value="80">Dos cuotas de U$S 80</option>
-                          <option value="53">Tres cuotas de U$S 53 </option>
-                        </select>
-                        <label for="floatingPassword">Cuotas</label>
-                      </div>
-                      <a href="#" class="btn btn-danger mt-2">Finalizar Compra!</a> -->
-
-    <!-- Pie de Pàgina -->
-    <footer class="bg-warning text-center text-dark">
-      <!-- Copyright -->
-      <div class="text-center p-3 bg-warning">
-        Trabajo final Javascript - Iván Albarenque
-      </div>
-      <!-- Copyright -->
-    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
