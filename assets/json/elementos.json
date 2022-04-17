@@ -1,0 +1,134 @@
+[
+ {
+  "id": 1,
+  "categoria": "Gastronomia",
+  "fechavenc": "26-05-2022",
+  "nombre": "Desayuno",
+  "donde": "La Linda Bakery",
+  "personas": 4,
+  "incluye": "Desayuno continental con varias opciones para 4 personas",
+  "foto": "\".\/assets\/img\/g1.jpg\"",
+  "precio": 80
+ },
+ {
+  "id": 2,
+  "categoria": "Gastronomia",
+  "fechavenc": "26-05-2022",
+  "nombre": "Almuerzo",
+  "donde": "La Pasiva",
+  "personas": 2,
+  "incluye": "Chivito Canadiense para dos personas + bebidas",
+  "foto": "\".\/assets\/img\/g3.jpg\"",
+  "precio": 90
+ },
+ {
+  "id": 3,
+  "categoria": "Gastronomia",
+  "fechavenc": "29-04-2022",
+  "nombre": "Merienda",
+  "donde": "Sundari Café",
+  "personas": 4,
+  "incluye": "Te completo con varias opciones para 4 personas",
+  "foto": "\".\/assets\/img\/g2.jpg\"",
+  "precio": 100
+ },
+ {
+  "id": 4,
+  "categoria": "Gastronomia",
+  "fechavenc": "03-05-2022",
+  "nombre": "Cena",
+  "donde": "La Pasiva",
+  "personas": 2,
+  "incluye": "Parrillada completa para dos personas + bebidas",
+  "foto": "\".\/assets\/img\/g4.jpg\"",
+  "precio": 60
+ },
+ {
+  "id": 5,
+  "categoria": "Espectaculos",
+  "fechavenc": "26-04-2022",
+  "nombre": "Casi Maestra",
+  "donde": "Florencio Sanchez",
+  "personas": 2,
+  "incluye": "2 entradas para ver la obra selecioinada",
+  "foto": "\".\/assets\/img\/e1.jpg\"",
+  "precio": 20
+ },
+ {
+  "id": 6,
+  "categoria": "Espectaculos",
+  "fechavenc": "30-05-2022",
+  "nombre": "Jumpy",
+  "donde": "Teatro Solis",
+  "personas": 2,
+  "incluye": "2 entradas para ver la obra selecioinada",
+  "foto": "\".\/assets\/img\/e2.jpg\"",
+  "precio": 25
+ },
+ {
+  "id": 7,
+  "categoria": "Espectaculos",
+  "fechavenc": "26-05-2022",
+  "nombre": "Hamlet",
+  "donde": "Auditorio Nacioal del Sodre",
+  "personas": 2,
+  "incluye": "2 entradas para ver la obra selecioinada",
+  "foto": "\".\/assets\/img\/e3.jpg\"",
+  "precio": 30
+ },
+ {
+  "id": 8,
+  "categoria": "Espectaculos",
+  "fechavenc": "13-05-2022",
+  "nombre": "Manuela",
+  "donde": "El Galpon",
+  "personas": 2,
+  "incluye": "2 entradas para ver la obra selecioinada",
+  "foto": "\".\/assets\/img\/e4.jpg\"",
+  "precio": 20
+ },
+ {
+  "id": 9,
+  "categoria": "Viajes",
+  "fechavenc": "26-04-2022",
+  "nombre": "Hotel con Piscina",
+  "donde": "Arenas Hotel",
+  "personas": 2,
+  "incluye": "2 noches de hotel para dos personas con desayuno incluido y late check out",
+  "foto": "\".\/assets\/img\/v1.jpg\"",
+  "precio": 160
+ },
+ {
+  "id": 10,
+  "categoria": "Viajes",
+  "fechavenc": "26-05-2022",
+  "nombre": "Tarde de campo ",
+  "donde": "Estancia Don Juaquín",
+  "personas": 4,
+  "incluye": "Tarde de campo para 4 personas con paseos y merienda incluida",
+  "foto": "\".\/assets\/img\/v2.jpg\"",
+  "precio": 100
+ },
+ {
+  "id": 11,
+  "categoria": "Viajes",
+  "fechavenc": "26-04-2022",
+  "nombre": "Turismo en la Bodega",
+  "donde": "Bodega Bouza",
+  "personas": 4,
+  "incluye": "Visita guiada a la bodega con degstacin de vinos incluida",
+  "foto": "\".\/assets\/img\/v3.jpg\"",
+  "precio": 120
+ },
+ {
+  "id": 12,
+  "categoria": "Viajes",
+  "fechavenc": "26-05-2022",
+  "nombre": "Escapada Romántica",
+  "donde": "Laguna Garzón Lodge",
+  "personas": 2,
+  "incluye": "2 noches de hotel para dos personas con desayuno incluido y late check out",
+  "foto": "\".\/assets\/img\/v4.jpg\"",
+  "precio": 220
+ }
+]
